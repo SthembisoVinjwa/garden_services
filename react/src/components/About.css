@@ -1,0 +1,19 @@
+.aboutWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 5em 5em;
+    gap: 3em;
+    color: var(--main);
+}
+
+.aboutSubsection {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.aboutList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+}

@@ -1,0 +1,29 @@
+.servicesWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0em 5em;
+    gap: 1.5em;
+    color: var(--main);
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+.serviceCard {
+    width: 15em;
+    border: 0.15em solid var(--main);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    gap: 1.5em;
+    justify-content: space-between;
+}
+
+.serviceCard:hover {
+    background-color: var(--secondary);
+    color: var(--background);
+}
