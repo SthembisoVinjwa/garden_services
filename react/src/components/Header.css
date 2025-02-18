@@ -1,0 +1,27 @@
+.headerWrapper {
+    background-color: var(--main);
+    color: var(--background);
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5em 5em;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 3em;
+}
+
+.navbar a {
+    color: var(--background);
+    text-decoration: none;
+}
+
+.navbar .active:hover {
+    color: var(--secondary);
+}

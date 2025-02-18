@@ -1,0 +1,69 @@
+.heroWrapper {
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.heroWrapper img {
+    width: 100%;
+    height: 600px;
+}
+
+.heroContent {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    background-color: rgba(157, 192, 139, 0.7);
+    backdrop-filter: blur(1px);
+    color: var(--background);
+    width: 100%;
+    height: 100%;
+}
+
+.heroCard {
+    width: 40%;
+    margin: 0 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.heroTitle {
+    font-size: 2.9em;
+}
+
+.actionRow {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+}
+
+.mainButton {
+    background-color: var(--action);
+    height: 3em;
+    color: var(--background);
+    border: none;
+    font-weight: bold;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainButton:hover {
+    cursor: pointer;
+}
+
+.secondaryButton {
+    background-color: transparent;
+    color: var(--main);
+    border: var(--borderSize) solid var(--main);
+}
+
+.secondaryButton:hover {
+    background-color: var(--main);
+    color: var(--background);
+}
