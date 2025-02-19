@@ -30,7 +30,7 @@
     font-weight: bold;
 }
 
-.secondaryButton {
+.serviceCard .secondaryButton {
     background-color: var(--main);
     color: var(--background);
 }
