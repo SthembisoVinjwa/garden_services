@@ -1,0 +1,19 @@
+.footerWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 3em 5em;
+}
+
+.linksRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.infoCard {
+    width: 15.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}

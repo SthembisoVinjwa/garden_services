@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     padding: 0em 5em;
-    padding-bottom: 3em;
+    padding-bottom: 5em;
     gap: 1.5em;
     color: var(--main);
 }
@@ -15,6 +15,8 @@
 }
 
 .serviceCard {
+    background-color: var(--secondary);
+    color: var(--background);
     width: 15em;
     border: 0.15em solid var(--main);
     display: flex;
@@ -22,11 +24,6 @@
     padding: 1.5em;
     gap: 1.5em;
     justify-content: space-between;
-}
-
-.serviceCard:hover {
-    background-color: var(--secondary);
-    color: var(--background);
 }
 
 .serviceTitle {
