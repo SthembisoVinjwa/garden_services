@@ -2,11 +2,11 @@ import "./Services.css";
 
 const Services = () => {
   return (
-    <div className="servicesWrapper">
+    <div className="servicesWrapper" id="services">
       <h1>Our services</h1>
       <div className="services">
         <div className="serviceCard">
-          <div className="serviceTitle">1. 🌱Grass cutting</div>
+          <div className="serviceTitle">1. 🌱 Grass cutting</div>
           <p>
             A well-maintained lawn starts with regular mowing. Our team ensures
             an even cut tailored to your grass type and growth rate. We adjust
@@ -15,7 +15,7 @@ const Services = () => {
           <button className="mainButton secondaryButton">Learn more</button>
         </div>
         <div className="serviceCard">
-          <div className="serviceTitle">2. ✂️Edging & Border Trimming</div>
+          <div className="serviceTitle">2. ✂️ Edging & border trimming</div>
           <p>
             Crisp, clean edges make a huge difference in your lawn’s appearance.
             Our edging service defines the borders of sidewalks, driveways, and
@@ -24,7 +24,9 @@ const Services = () => {
           <button className="mainButton secondaryButton">Learn more</button>
         </div>
         <div className="serviceCard">
-          <div className="serviceTitle">3. 💧Lawn Watering & Fertilization</div>
+          <div className="serviceTitle">
+            3. 💧 Lawn watering & fertilization
+          </div>
           <p>
             A healthy lawn needs proper nourishment. We provide watering and
             fertilization services to keep your grass lush, green, and thriving.
@@ -32,7 +34,7 @@ const Services = () => {
           <button className="mainButton secondaryButton">Learn more</button>
         </div>
         <div className="serviceCard">
-          <div className="serviceTitle">4. 🍂 Leaf & Debris Cleanup</div>
+          <div className="serviceTitle">4. 🍂 Leaf & debris cleanup</div>
           <p>
             Seasonal changes bring fallen leaves and debris. We clean up your
             lawn, so it stays tidy and well-maintained year-round.

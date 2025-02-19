@@ -2,7 +2,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <section className="heroWrapper">
+    <section className="heroWrapper" id="home">
       <img src="src/images/lawn-mower-hero.jpg" alt="picture of mowing lawn" />
       <div className="heroContent">
         <div className="heroCard">

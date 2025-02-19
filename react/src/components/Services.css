@@ -29,3 +29,8 @@
 .serviceTitle {
     font-weight: bold;
 }
+
+.secondaryButton {
+    background-color: var(--main);
+    color: var(--background);
+}

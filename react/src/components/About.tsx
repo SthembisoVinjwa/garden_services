@@ -2,7 +2,7 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="aboutWrapper">
+    <div className="aboutWrapper" id="about">
       <div className="aboutSubsection">
         <h1>Quality and eco-friendly service</h1>
         <p>
@@ -19,27 +19,27 @@ const About = () => {
         <h1>Why choose us</h1>
         <div className="aboutList">
           <li>
-            Experienced & Professional Team – Our skilled lawn care experts
+            Experienced & Professional Team – our skilled lawn care experts
             ensure precision and quality in every job.
           </li>
           <li>
-            Affordable & Transparent Pricing - No hidden costs; just fair and
+            Affordable & Transparent Pricing - no hidden costs; just fair and
             competitive rates for top-quality service.
           </li>
           <li>
-            Eco-Friendly Practices - We use sustainable methods and equipment to
+            Eco-Friendly Practices - we use sustainable methods and equipment to
             keep your lawn healthy and green.
           </li>
           <li>
-            Reliable & On-Time Service - We respect your schedule and always
+            Reliable & On-Time Service - we respect your schedule and always
             arrive on time for your lawn care needs.
           </li>
           <li>
-            Satisfaction Guaranteed - We take pride in our work and ensure
+            Satisfaction Guaranteed - we take pride in our work and ensure
             you’re happy with every service.
           </li>
           <li>
-            Locally Owned & Trusted - A community-focused business dedicated to
+            Locally Owned & Trusted - a community-focused business dedicated to
             serving our neighbors with excellence.
           </li>
         </div>
