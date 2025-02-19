@@ -1,4 +1,7 @@
 .headerWrapper {
+    position: sticky;
+    top: 0;
+    z-index: 1;
     background-color: var(--main);
     color: var(--background);
     font-weight: bold;

@@ -1,0 +1,57 @@
+.howWrapper {
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.howWrapper img {
+    width: 100%;
+    height: 600px;
+}
+
+.howContent {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    background-color: rgba(157, 192, 139, 0.7);
+    backdrop-filter: blur(1px);
+    color: var(--background);
+    width: 100%;
+    height: 100%;
+}
+
+.howCard {
+    margin: 3em 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.howCard h1 {
+    font-size: 2.9em;
+}
+
+.steps {
+    margin: 0 5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+.stepCard {
+    background-color: var(--main);
+    width: 21em;
+    border: 0.15em solid var(--main);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    gap: 1.5em;
+}
+
+.stepTitle {
+    font-weight: bold;
+}
