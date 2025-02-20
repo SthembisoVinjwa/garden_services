@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "./Header.css";
 
 const Header = () => {
-  const [screenWidth, setScreenWidth] = useState(window.screen.width);
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
   useEffect(() => {
     const handleResize = () => {
@@ -43,7 +43,7 @@ const Header = () => {
             </li>
           </>
         ) : (
-          <div>hamburger</div>
+          <div></div>
         )}
       </ul>
     </div>
