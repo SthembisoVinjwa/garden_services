@@ -4,9 +4,22 @@
     position: relative;
 }
 
-.howWrapper img {
-    width: 100%;
-    height: 600px;
+@media screen and (max-width: 1265px) {
+    .howWrapper {
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 881px) {
+    .howWrapper {
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .howWrapper {
+        height: 1200px;
+    }
 }
 
 .howContent {
@@ -24,7 +37,8 @@
 }
 
 .howCard {
-    margin: 3em 5em;
+    margin: 0em 5em;
+    margin-bottom: 3em;
     display: flex;
     flex-direction: column;
     gap: 1.5em;
@@ -32,6 +46,12 @@
 
 .howCard h1 {
     font-size: 2.9em;
+}
+
+@media screen and (max-width: 736px) {
+    .howCard h1 {
+        font-size: 1.5em;
+    }
 }
 
 .steps {

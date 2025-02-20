@@ -15,8 +15,7 @@
 }
 
 .serviceCard {
-    background-color: var(--secondary);
-    color: var(--background);
+    color: var(--main);
     width: 15em;
     border: 0.15em solid var(--main);
     display: flex;
@@ -28,6 +27,12 @@
 
 .serviceTitle {
     font-weight: bold;
+}
+
+@media screen and (max-width: 736px) {
+    .servicesWrapper h1 {
+        font-size: 1.2em;
+    }
 }
 
 .serviceCard .secondaryButton {

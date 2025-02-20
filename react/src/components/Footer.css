@@ -12,6 +12,12 @@
     justify-content: space-between;
 }
 
+@media screen and (max-width: 1152px) {
+    .linksRow {
+        gap: 3em;
+    }
+}
+
 .linksRow a {
     color: var(--main);
 }
@@ -21,4 +27,16 @@
     display: flex;
     flex-direction: column;
     gap: 1em;
+}
+
+.infoCard .infoList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+}
+
+@media screen and (max-width: 1152px) {
+    .infoCard .infoList {
+        gap: 0.5em;
+    }
 }

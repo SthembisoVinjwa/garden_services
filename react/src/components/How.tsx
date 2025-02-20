@@ -3,10 +3,9 @@ import "./How.css";
 const How = () => {
   return (
     <section className="howWrapper">
-      <img src="src/images/garden-how.jpg" alt="Man cutting grass" />
       <div className="howContent">
         <div className="howCard">
-          <h1>How to make a booking</h1>
+          <h1>How to book</h1>
         </div>
         <div className="steps">
           <div className="stepCard">

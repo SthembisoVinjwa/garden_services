@@ -27,7 +27,7 @@
     text-decoration: none;
 }
 
-.navbar .active:hover {
+.navbar a:hover {
     color: var(--secondary);
 }
 
