@@ -1,0 +1,15 @@
+.errorWrapper {
+    color: var(--main);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.errorContent {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}

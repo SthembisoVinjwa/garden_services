@@ -1,8 +1,11 @@
 import { useState, useEffect } from "react";
 import "./Header.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const [showMenu, setShowMenu] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -11,6 +14,7 @@ const Header = () => {
       if (newWidth <= 736 && screenWidth > 736) {
         setScreenWidth(newWidth);
       } else if (newWidth > 736 && screenWidth <= 736) {
+        setShowMenu(false);
         setScreenWidth(newWidth);
       }
     };
@@ -43,9 +47,34 @@ const Header = () => {
             </li>
           </>
         ) : (
-          <div></div>
+          <div>
+            <FontAwesomeIcon
+              icon={faBars}
+              size="lg"
+              className="hamburgerIcon"
+              onClick={() => setShowMenu(!showMenu)}
+            />
+          </div>
         )}
       </ul>
+      {showMenu && (
+        <div className="menuContainer">
+          <>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about">About us</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#footer">Contact us</a>
+            </li>
+          </>
+        </div>
+      )}
     </div>
   );
 };

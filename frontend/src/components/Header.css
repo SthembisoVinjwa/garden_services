@@ -3,6 +3,7 @@
     top: 0;
     z-index: 1;
     background: linear-gradient(to left, var(--background), var(--secondary));
+    backdrop-filter: blur(1px);
     color: var(--main);
     font-weight: bold;
     display: flex;
@@ -40,4 +41,36 @@
 .logo img {
     width: 120px;
     height: 60px;
+}
+
+.hamburgerIcon {
+    cursor: pointer;
+}
+
+.menuContainer {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 2;
+    background: linear-gradient(to left, var(--background), var(--secondary));
+    backdrop-filter: blur(1px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0.5em 0;
+    margin: 0;
+    border-top: 0.10em solid var(--main);
+}
+
+.menuContainer li {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin: 0.6em 5em;
+}
+
+.menuContainer a {
+    color: var(--main);
+    font-weight: bold;
 }
